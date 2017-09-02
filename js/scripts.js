@@ -4,7 +4,7 @@ list = document.getElementById('list');
 
 add.addEventListener('click', function(e){
 	element = document.createElement('li');
-	element[i].innerHTML = 'item';	
+	element.innerHTML = 'item';	
 	function updateCount(){
 		listitems = list.getElementByTagName('li').length;
 	} 
